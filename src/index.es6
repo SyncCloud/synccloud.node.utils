@@ -1,12 +1,4 @@
-import assertType from './assert-type';
-import {CancellationSource, Cancellation} from './cancellation';
-import Deferred from './deferred';
-import * as errors from './errors';
-
-export default {
-  assertType,
-  Deferred,
-  CancellationSource,
-  Cancellation,
-  ...errors
-}
+export {default as assertType} from './assert-type';
+export * from './cancellation';
+export {default as Deferred} from './deferred';
+export * from './errors';
