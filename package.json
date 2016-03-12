@@ -27,8 +27,5 @@
     "chai": "^3.4.1",
     "chai-register": "0.0.1",
     "mocha": "^2.3.4"
-  },
-  "babel": {
-    "stage": 1
   }
 }
